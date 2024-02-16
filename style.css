@@ -155,7 +155,7 @@ section{
 .text-animation span::after{
     content: " ";
     color: var(--bg-color);
-    background-color: var(--bg-color);
+    background: var(--bg-color);
     position: absolute;
     width: calc(100%+8px);
     height: 100%;
