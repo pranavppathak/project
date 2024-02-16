@@ -165,7 +165,6 @@ section{
 @keyframes cursor{
     to{
         border-left:2px solid var(--main-color);
-        content: " ";
     }
 
 }
@@ -176,14 +175,17 @@ section{
     }
     21%,
     40%{
+        content: " ";
         content:"Web Aspirant";
     }
     41%,
     60%{
+        content: " ";
         content:"Engineer";
     }
     61%,
     100%{
+        content: " ";
         content:"Student";
     }
     
@@ -199,7 +201,7 @@ section{
     75%,
     90%,
     95%{
-        width: 0;
+        width: 0px;
     }
     5%,
     20%,
