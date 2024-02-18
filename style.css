@@ -285,3 +285,77 @@ section{
     background-color: var(--bg-color);
     width: 50px;
 }
+/* Media Queries for Responsive Design */
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+    .home{
+        display: block;
+    }
+    .home-img{
+        position: relative;
+        left: 8rem;
+    }
+    .header {
+        padding: 2rem 5%;
+    }
+    
+    .logo {
+        font-size: 2.5rem;
+    }
+    
+    .navbar a {
+        font-size: 1.6rem;
+        margin-left: 2rem;
+    }
+    
+    .home-content h1 {
+        font-size: 6rem;
+    }
+    
+    .home-img img {
+        width: 50vw;
+    }
+    
+    .text-animation {
+        font-size: 32px;
+    }
+    
+    .btn {
+        padding: 0.8rem 2.4rem;
+        font-size: 1.4rem;
+    }
+}
+
+/* For screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        padding: 2.5rem 5%;
+    }
+    
+    .logo {
+        font-size: 2.8rem;
+    }
+    
+    .navbar a {
+        font-size: 1.7rem;
+        margin-left: 2.5rem;
+    }
+    
+    .home-content h1 {
+        font-size: 7rem;
+    }
+    
+    .home-img img {
+        width: 45vw;
+    }
+    
+    .text-animation {
+        font-size: 36px;
+    }
+    
+    .btn {
+        padding: 0.9rem 2.6rem;
+        font-size: 1.5rem;
+    }
+}
