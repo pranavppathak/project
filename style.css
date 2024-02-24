@@ -285,9 +285,6 @@ section{
     background-color: var(--bg-color);
     width: 50px;
 }
-/* Media Queries for Responsive Design */
-
-/* For screens smaller than 768px */
 @media (max-width: 767px) {
     .home{
         display: block;
@@ -326,8 +323,6 @@ section{
         font-size: 1.4rem;
     }
 }
-
-/* For screens between 768px and 1023px */
 @media (min-width: 768px) and (max-width: 1023px) {
     .header {
         padding: 2.5rem 5%;
